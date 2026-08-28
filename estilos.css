@@ -1,7 +1,7 @@
 .container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 10vh 50vh 10vh 10vh;
+    grid-template-rows: 20vh 50vh 10vh 10vh;
     grid-template-areas: 
                         "cont2 cont2 cont2"
                         "cont3 cont3 cont1"
@@ -27,4 +27,18 @@
 #cont5{
     grid-area: cont5;
     background-color: rgb(196, 136, 87);
+}
+
+.navegador{
+padding: 10px 30px; /*un parametro es en el eje Y y dos parametros es en los ejes X y Y*/
+}
+
+.navegador nav{
+    text-align: right;
+}
+
+
+ul{
+    list-style-type: none; /*para quitar los puntos de la lista*/
+
 }
