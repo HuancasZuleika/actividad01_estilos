@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 10vh 50vh 10vh 10vh;
+    grid-template-areas: 
+                        "cont2 cont2 cont2"
+                        "cont3 cont3 cont1"
+                        "cont3 cont3 cont1"
+                        "cont5 cont5 cont5";
+}
+#cont1{
+    grid-area: cont1;
+    background-color: antiquewhite;
+}
+#cont2{
+    grid-area: cont2;
+    background-color: rgb(190, 151, 99);
+}
+#cont3{
+    grid-area: cont3;
+    background-color: #f0ea9e;
+}
+/*#cont4{
+    grid-area: cont4;
+    background-color: #b49b49;
+}*/
+#cont5{
+    grid-area: cont5;
+    background-color: rgb(196, 136, 87);
+}
